@@ -1,18 +1,22 @@
-# Salesforce DX Project: Next Steps
+# Lightning Data Table in Salesforce Scratch Org
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This guide will help you create a Lightning Data Table that displays contact first name, last name, account name, and account industry in a Salesforce scratch org named Task1. This guide assumes you have basic knowledge of Salesforce, Visual Studio Code (VSC), and the Salesforce CLI.
 
-## How Do You Plan to Deploy Your Changes?
+## Prerequisites
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+- Salesforce CLI installed
+- Visual Studio Code (VSC) installed
+- Salesforce DX project setup
 
-## Configure Your Salesforce DX Project
+## Instructions
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+1. **Create a Salesforce scratch org**: Set up a new Salesforce scratch org for development.
+2. **Set up the Lightning Web Component**: Create a new Lightning Web Component for the data table.
+3. **Fetch Data in Apex**: Write an Apex controller to fetch the necessary contact and account data.
+4. **Display Data in Data Table**: Implement the Lightning Data Table in your component to display the fetched data.
+5. **Deploy to Scratch Org**: Deploy your component and Apex controller to the scratch org.
+6. **Test the Component**: Verify that the Lightning Data Table displays the contact first name, last name, account name, and account industry correctly in the scratch org.
 
-## Read All About It
+## Conclusion
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Follow these steps to successfully create and test a Lightning Data Table in your Salesforce scratch org.
